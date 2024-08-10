@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form>
+        <label for="fname">First Name:</label><br>
+        <input type="Text" name="fname" id ="fname" required minlength="5" maxlength="20"><br><br>
+        <label>Last name:</label><br>
+        <input type="text" name="lname"><br><br>
+        <label>Address:</label><br>
+        <textarea name="address"></textarea><br><br>
+        <label>Languages: </label><br>
+        <input type="checkbox" name="English">English<br><input type="checkbox" name="Hindi">Hindi<br><input type="checkbox" name="German">German<br><input type="checkbox" name="French">French<br><br>
+        <label>Gender: </label><br>
+        <input type="radio" name="gender">Male<br><input type="radio" name="gender">Female<br><input type="radio" name="gender">Prefer not to say<br><br>
+        <label>Choose Course:</label><br>
+        <select name="course" required>
+            <option value="" disabled selected>--select--</option>
+            <option value="">HTML</option>
+            <option value="">CSS</option>
+            <option value="">PYTHON</option>
+            <option value="">C/C++</option>
+        </select><br><br>
+        <input type="Submit" name="submit">
+    </form>
+
+</body>
+</html>
